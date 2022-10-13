@@ -1,0 +1,182 @@
+{
+  "coinalgos":{
+    "eth":"eth",
+    "flux":"125_4",
+    "erg":"AUTOLYKOS2",
+    "rvn": "kawpow",
+    "rxd": "sha512256d"
+  },
+  "coins":{
+    "etc": {
+      "displayname": "ETC",
+      "algo":"eth",
+      "miners": ["gminer", "teamredminer", "lolminer"]
+    },
+    "flux": {
+      "displayname": "FLUX",
+      "algo": "125_4",
+      "miners": ["gminer"]
+    },
+    "erg": {
+      "displayname": "ERG",
+      "algo": "AUTOLYKOS2",
+      "miners": ["lolminer"]
+    },
+    "rvn": {
+      "displayname": "RVN",
+      "algo": "kawpow",
+      "miners": ["gminer"]
+    },
+    "rxd": {
+      "displayname": "RXD",
+      "algo": "sha512256d",
+      "miners": ["wildrig-multi"]
+    }
+  },
+  "miners": {
+    "gminer": {
+      "hosttemplate": "HOST=",
+      "porttemplate" : "PORT=",
+      "rigconfname" : "gminer",
+      "walletconfname" : "gminer",
+      "walletconfportseperate": true,
+      "walletconfneedsextra": false
+    },
+    "wildrig-multi": {
+      "hosttemplate": "URL=",
+      "porttemplate" : "",
+      "rigconfname" : "wildrig-multi",
+      "walletconfname" : "wildrig_multi",
+      "walletconfportseperate": false,
+      "walletconfneedsextra": true
+    }
+  },
+  "octemplates":{
+    "GeForce RTX 3070_eth":{
+      "core":"1100",
+      "mem":"2500",
+      "pl":"130",
+      "fan":"0"
+    },
+    "GeForce GTX 1660 Ti_eth":{
+      "core":"740",
+      "mem":"2200",
+      "pl":"80",
+      "fan":"0"
+    },
+    "GeForce GTX 1070_eth":{
+      "core":"100",
+      "mem":"800",
+      "pl":"120",
+      "fan":"100"
+    },
+    "GeForce GTX 1080 Ti_eth":{
+      "core":"180",
+      "mem":"0",
+      "pl":"200",
+      "fan":"100"
+    },
+    "GeForce RTX 3080_eth":{
+      "core":"1200",
+      "mem":"2400",
+      "pl":"280",
+      "fan":"100"
+    },
+    "GeForce RTX 2060_eth":{
+      "core":"1025",
+      "mem":"1900",
+      "pl":"125",
+      "fan":"0"
+    },
+    "GeForce RTX 3060 Ti LHR_eth":{
+      "core":"1330",
+      "mem":"1800",
+      "pl":"165",
+      "fan":"0"
+    },
+    "GeForce RTX 3060 Ti_eth":{
+      "core":"1330",
+      "mem":"1800",
+      "pl":"165",
+      "fan":"95"
+    },
+    "GeForce GTX 1660 SUPER_eth":{
+      "core":"760",
+      "mem":"-1004",
+      "pl":"80",
+      "fan":"0"
+    },
+    "GeForce RTX 3060 LHR_eth":{
+      "core":"120",
+      "mem":"2200",
+      "pl":"130",
+      "fan":"95"
+    },
+    "GeForce RTX 3080 Ti_eth":{
+      "core":"1300",
+      "mem":"2200",
+      "pl":"285",
+      "fan":"100"
+    },
+    "GeForce RTX 3090_eth":{
+      "core":"1100",
+      "mem":"2100",
+      "pl":"300",
+      "fan":"100"
+    },
+    "P104-100_eth":{
+      "core":"153",
+      "mem":"-900",
+      "pl":"100",
+      "fan":"100"
+    },
+    "P106-100_rxd":{
+      "core":"0",
+      "mem":"0",
+      "pl":"90",
+      "fan":"100"
+    },
+    "GeForce GTX 1070_rxd":{
+      "core":"0",
+      "mem":"0",
+      "pl":"100",
+      "fan":"100"
+    },
+    "GeForce RTX 3070_flux":{
+      "core":"1500",
+      "mem":"-1500",
+      "pl":"122",
+      "fan":"0"
+    },
+    "GeForce GTX 1660 Ti_flux":{
+      "core":"0",
+      "mem":"1000",
+      "pl":"80",
+      "fan":"0"
+    },
+    "GeForce RTX 3090_flux":{
+      "core":"0",
+      "mem":"2100",
+      "pl":"220",
+      "fan":"100"
+    },
+    "GeForce RTX 2070_flux":{
+      "core":"1100",
+      "mem":"2100",
+      "pl":"125",
+      "fan":"0"
+    },
+    "GeForce RTX 3060 LHR_flux":{
+      "core":"1410",
+      "mem":"700",
+      "pl":"100",
+      "fan":"95"
+    },
+    "GeForce RTX 3070_erg":{
+      "core":"970",
+      "mem":"2600",
+      "pl":"100",
+      "fan":"0"
+    }
+  }
+}
