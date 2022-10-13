@@ -49,6 +49,14 @@
       "walletconfname" : "wildrig_multi",
       "walletconfportseperate": false,
       "walletconfneedsextra": true
+    },
+    "lolminer": {
+      "hosttemplate": "SERVER=",
+      "porttemplate" : "PORT=",
+      "rigconfname" : "lolminer",
+      "walletconfname" : "lolminer",
+      "walletconfportseperate": true,
+      "walletconfneedsextra": false
     }
   },
   "octemplates":{
@@ -172,11 +180,47 @@
       "pl":"100",
       "fan":"95"
     },
+    "GeForce RTX 3080 Ti LHR_flux":{
+      "core":"0",
+      "mem":"0",
+      "pl":"100",
+      "fan":"240"
+    },
+    "GeForce RTX 3060 LHR_erg":{
+      "core":"1350",
+      "mem":"1800",
+      "pl":"110",
+      "fan":"100"
+    },
+    "GeForce RTX 2070_erg":{
+      "core":"1100",
+      "mem":"2200",
+      "pl":"125",
+      "fan":"100"
+    },
+    "GeForce RTX 3080_erg":{
+      "core":"0",
+      "mem":"1000",
+      "pl":"242",
+      "fan":"100"
+    },
     "GeForce RTX 3070_erg":{
       "core":"970",
       "mem":"2600",
       "pl":"100",
       "fan":"0"
+    },
+    "GeForce GTX 1660 SUPER_kas":{
+      "core":"1350",
+      "mem":"1900",
+      "pl":"115",
+      "fan":"100"
+    },
+    "GeForce GTX 1080_kas":{
+      "core":"150",
+      "mem":"1800",
+      "pl":"150",
+      "fan":"100"
     }
   }
 }
