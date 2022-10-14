@@ -22,6 +22,11 @@
       "algo": "AUTOLYKOS2",
       "miners": ["lolminer"]
     },
+    "eth": {
+      "displayname": "ETH",
+      "algo": "ethash",
+      "miners": ["gminer", "teamredminer", "lolminer"]
+    },
     "rvn": {
       "displayname": "RVN",
       "algo": "kawpow",
