@@ -5,7 +5,7 @@
     "erg":"AUTOLYKOS2",
     "rvn": "kawpow",
     "rxd": "sha512256d",
-    "rxd": "sha512-schnorr"
+    "nexa": "sha512-schnorr"
   },
   "coins":{
     "etc": {
