@@ -36,6 +36,11 @@
       "displayname": "RXD",
       "algo": "sha512256d",
       "miners": ["wildrig-multi"]
+    },
+    "nexa": {
+      "displayname": "NEXA",
+      "algo": "sha512-shnorr",
+      "miners": ["wildrig-multi"]
     }
   },
   "miners": {
