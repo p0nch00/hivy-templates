@@ -5,7 +5,7 @@
     "erg":"AUTOLYKOS2",
     "rvn": "kawpow",
     "rxd": "sha512256d",
-    "nexa": "sha512-schnorr"
+    "nexa": "nexapow"
   },
   "coins":{
     "etc": {
@@ -40,7 +40,7 @@
     },
     "nexa": {
       "displayname": "NEXA",
-      "algo": "sha512-shnorr",
+      "algo": "nexapow",
       "miners": ["wildrig-multi"]
     }
   },
