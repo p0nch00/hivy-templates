@@ -20,8 +20,8 @@
       "miners": ["gminer"]
     },
     "kaspa": {
-      "displayname": "KAS2",
-      "algo": "kheavyhash",
+      "displayname": "KAS",
+      "algo": "kaspa",
       "miners": ["gminer"]
     },
     "erg": {
