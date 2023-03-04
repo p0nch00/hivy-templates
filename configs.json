@@ -20,7 +20,7 @@
       "miners": ["gminer"]
     },
     "kaspa": {
-      "displayname": "KAS",
+      "displayname": "KAS2",
       "algo": "kheavyhash",
       "miners": ["gminer"]
     },
