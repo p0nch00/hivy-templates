@@ -5,6 +5,7 @@
     "erg":"AUTOLYKOS2",
     "rvn": "kawpow",
     "rxd": "sha512256d",
+    "kas": "kaspa",
     "nexa": "nexapow"
   },
   "coins":{
@@ -16,6 +17,11 @@
     "flux": {
       "displayname": "FLUX",
       "algo": "125_4",
+      "miners": ["gminer"]
+    },
+    "kaspa": {
+      "displayname": "KAS",
+      "algo": "kas",
       "miners": ["gminer"]
     },
     "erg": {
