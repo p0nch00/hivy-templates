@@ -68,6 +68,7 @@
     "srbminer": {
       "hosttemplate": "URL=",
       "porttemplate" : "",
+      "template_not_include_rig_name" : true,
       "rigconfname" : "srbminer",
       "walletconfname" : "srbminer",
       "walletconfportseperate": false,
