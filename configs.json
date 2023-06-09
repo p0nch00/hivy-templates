@@ -6,13 +6,19 @@
     "rvn": "kawpow",
     "rxd": "sha512256d",
     "kas": "kaspa",
-    "nexa": "nexapow"
+    "nexa": "nexapow",
+    "dynex": "dynex"
   },
   "coins":{
     "etc": {
       "displayname": "ETC",
       "algo":"eth",
       "miners": ["gminer", "teamredminer", "lolminer"]
+    },
+    "dynex": {
+      "displayname": "DNX",
+      "algo":"dynex",
+      "miners": ["srbminer"]
     },
     "flux": {
       "displayname": "FLUX",
@@ -57,6 +63,14 @@
       "rigconfname" : "gminer",
       "walletconfname" : "gminer",
       "walletconfportseperate": true,
+      "walletconfneedsextra": false
+    },
+    "srbminer": {
+      "hosttemplate": "URL=",
+      "porttemplate" : "",
+      "rigconfname" : "srbminer",
+      "walletconfname" : "srbminer",
+      "walletconfportseperate": false,
       "walletconfneedsextra": false
     },
     "wildrig-multi": {
