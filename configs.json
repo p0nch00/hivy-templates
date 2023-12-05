@@ -1,6 +1,7 @@
 {
   "coinalgos":{
     "eth":"eth",
+    "karlsen":"karlsenhash",
     "flux":"125_4",
     "erg":"AUTOLYKOS2",
     "rvn": "kawpow",
@@ -18,6 +19,11 @@
     "dynex": {
       "displayname": "DNX",
       "algo":"dynex",
+      "miners": ["srbminer"]
+    },
+    "karlsen": {
+      "displayname": "KARLSEN",
+      "algo": "karlsenhash",
       "miners": ["srbminer"]
     },
     "flux": {
